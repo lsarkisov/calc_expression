@@ -18,7 +18,7 @@
     Just fallow these commands:
 
     ```sh
-    cd calc_expression/
+    cd <calc_expression_dir>/
     make && make run
     ```
   
