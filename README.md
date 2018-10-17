@@ -19,9 +19,8 @@
 
     ```sh
     cd calc_expression/
-    g++ main.cpp -o main && ./main
+    make && make run
     ```
-    I used small node/express server
   
 ## 🧐 Crucial files?
 
