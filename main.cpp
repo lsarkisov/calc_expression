@@ -1,4 +1,4 @@
-#import "src/run.cpp"
+#include "src/run.cpp"
 
 int main(int argc, char** argv) {
     std::cout << "result: "

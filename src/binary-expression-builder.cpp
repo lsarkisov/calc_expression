@@ -27,7 +27,7 @@ namespace expcounter {
     }
 
     BinaryOperationNode *BinaryExpressionBuilder::parse(std::string& str)
-            throw (NotWellFormed)
+            noexcept(false)
     {
 
         std::istringstream istr(str);

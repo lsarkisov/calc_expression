@@ -17,7 +17,7 @@ namespace expcounter
 
             };
 
-            BinaryOperationNode *parse(std::string& istr) throw (NotWellFormed);
+            BinaryOperationNode *parse(std::string& istr) noexcept(false);
         
         private:
             std::stack<char> operatorStack;
